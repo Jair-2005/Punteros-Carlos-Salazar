@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int vec[5]=(2,4,6,8,10);
+    int vec[5]={{2,4,6,8,10}};
     int *ptr;
     ptr=&vec[0];
     // printf("%d", ptr);
