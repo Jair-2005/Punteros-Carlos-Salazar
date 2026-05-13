@@ -6,8 +6,8 @@ int main(){
     ptr=&vec[0];
     // printf("%d", ptr);
     for(int i=0;i<5;i++){
-        printf("%d ",vec[i]);
-        printf("%d\n ",*ptr++i);
+        printf("vector[%d] %d\n ",i,vec[i]);
+        printf("%d\n ",*(ptr++));
     }
     return 0;
 }
